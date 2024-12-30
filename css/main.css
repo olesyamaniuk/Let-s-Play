@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akatab:wght@400;500;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 :root {
 }
@@ -115,8 +115,7 @@ a {
   height: 60px;
   backdrop-filter: blur(33px);
 
-  background: #3f3cad;
-  box-shadow: 0px 4px 12px 0px #311c8f80;
+  background: #0052ab;
 }
 .header__background {
   position: absolute;
@@ -128,9 +127,7 @@ a {
   z-index: -1;
   -webkit-transition: left 0.3s ease;
   transition: left 0.3s ease;
-
-  background: #3f3cad;
-  box-shadow: 0px 4px 12px 0px #311c8f80;
+  background: #0052ab;
 }
 .header.is-open .header__background {
   left: 0;
@@ -204,32 +201,35 @@ a {
   padding: 40px;
 
   border-radius: 0px 0px;
-  background: #3f3cad;
+  background: #0052ab;
 }
 .navigation__list.is-open {
   right: 0;
 }
 .navigation__link {
-  font-family: Albert Sans;
+  font-family: Akatab;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 28px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+
   text-transform: capitalize;
   text-decoration: none;
   color: #ffffff;
 }
 .navigation__link:hover,
 .navigation__link:focus {
-  font-family: Albert Sans;
+  font-family: Akatab;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 28px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  padding-right: 20px;
+  border-right: 4px solid #f5800c;
 }
 .header.is-open {
   background-color: transparent;
@@ -297,7 +297,7 @@ a {
     border: none;
     padding-block: 0;
     flex: 1;
-    gap: 78px;
+    gap: 68px;
     height: 0px;
     display: flex;
     justify-content: center;
@@ -308,11 +308,11 @@ a {
   .navigation__link {
     display: flex;
 
-    font-family: Albert Sans;
+    font-family: Akatab;
     font-size: 18px;
-    font-weight: 900;
+    font-weight: 400;
     line-height: 28px;
-    text-align: left;
+    text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
@@ -327,30 +327,31 @@ a {
 
 .home {
   width: 375px;
-  height: 800px;
+  height: 853px;
 
-  padding: 90px 3px 0;
+  padding: 114px 10px 0;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("/image/home/Block\ 1.png");
+  background-image: url("/img/home/Block\ 1.png");
 }
 
 .home-title {
   margin: auto;
-  width: 333px;
-  height: 157px;
+  width: 315px;
+  height: 166px;
 }
 .home-text {
-  font-family: Albert Sans;
+  font-family: Akatab;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 32px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  padding: 20px 0 32px;
+
+  padding: 2px 0 28px;
   color: #ffffff;
 }
 .home__google-button_link {
@@ -362,30 +363,30 @@ a {
 @media screen and (min-width: 1200px) {
   .home {
     width: 1440px;
-    height: 800px;
+    height: 728px;
 
-    padding: 180px 0 0 86px;
+    padding: 172px 0 0 86px;
     display: flex;
     flex-direction: column;
     align-items: start;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url("/image/home/Block\ 1\ \(1\).png");
+    background-image: url("/img/home/Block\ 1\ \(1\).png");
   }
 
   .home-title {
-    width: 556px;
-    height: 261px;
+    width: 620px;
+    height: 326px;
   }
   .home-text {
-    padding: 36px 0 56px;
+    padding: 12px 0 56px;
     width: 559px;
-
-    font-family: Albert Sans;
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 40px;
+    margin-left: 45.5px;
+    font-family: Akatab;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -400,19 +401,19 @@ a {
   padding: 60px 20px 0;
   margin: auto;
   width: 375px;
-  height: 516px;
+  height: 626px;
 
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("/image/about/_About\ us.png");
+  background-image: url("/img/about/About\ the\ Game.png");
 }
 
 .about-title {
-  font-family: Albert Sans;
+  font-family: Akatab;
   font-size: 40px;
   font-weight: 900;
   line-height: 48px;
@@ -420,101 +421,98 @@ a {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 
-  color: #ffffff;
+  color: #c05200;
 }
 
 .about-text {
-  font-family: Albert Sans;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 28px;
+  font-family: Akatab;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
   text-align: justify;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 
-  color: #ffffff;
   padding-top: 40px;
 }
 .about-text-bold {
-  font-family: Albert Sans;
-  font-size: 20px;
-  font-weight: 900;
-  line-height: 28px;
+  font-family: Akatab;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
 
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
 @media screen and (min-width: 1200px) {
   .about {
-    padding: 88px 140px 0;
+    padding: 105px 94px 0 696px;
     margin: auto;
     width: 1440px;
-    height: 452px;
+    height: 509px;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url("/image/about/_About\ us\ \(1\).png");
+    background-image: url("/img/about/About\ us.png");
   }
   .about-title {
-    font-family: Albert Sans;
+    font-family: Akatab;
     font-size: 48px;
     font-weight: 900;
-    line-height: 56px;
+    line-height: 52px;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
 
   .about-text {
-    font-family: Albert Sans;
+    font-family: Akatab;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 32px;
-    text-align: center;
+    text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 
     padding-top: 60px;
   }
   .about-text-bold {
-    font-family: Albert Sans;
+    font-family: Akatab;
     font-size: 24px;
     font-weight: 900;
     line-height: 32px;
-    text-align: center;
+    text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
 }
 .advantages {
   width: 375px;
-  height: 1304px;
+  height: 1024px;
 
   margin: auto;
-  padding: 60px 41px 0px;
+  padding: 60px 40px 0px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("/image/advantages/Benefits.png");
+  background-image: url("/img/advantages/Benefits.png");
 }
-
+.advantages-title {
+  color: #ffffff;
+}
 .advantages-list {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  padding-top: 40px;
+  gap: 40px;
+  padding-top: 60px;
 }
 .advantages-item {
-  width: 292px;
-  height: 256px;
-  padding: 44px 56px 44px 56px;
-  border-radius: 40px;
-  background: #ea6626;
-  border: 4px solid #ffffff;
+  width: 256px;
+  height: 140px;
   margin: auto;
 }
 .advantages-item-img {
@@ -522,67 +520,93 @@ a {
 }
 
 .advantages-item-text {
-  font-family: Albert Sans;
+  font-family: Akatab;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 40px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+
   color: #ffffff;
-  padding: 12px 0;
+  padding: 8px 0;
 }
 .advantages-text-bold {
-  font-family: Albert Sans;
-  font-size: 28px;
-  font-weight: 600;
+  font-family: Akatab;
+  font-size: 24px;
+  font-weight: 500;
   line-height: 32px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+
   color: #ffffff;
+}
+.advantages-text {
+  font-family: Akatab;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 28px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  margin-top: 36px;
 }
 @media screen and (min-width: 1200px) {
   .advantages {
     width: 1440px;
-    height: 548px;
+    height: 520px;
 
     margin: auto;
-    padding: 88px 83px 0px;
+    padding: 88px 132px 0px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url("/image/advantages/Benefits\ \(1\).png");
+    background-image: url("/img/advantages/Benefits\ \(1\).png");
   }
 
   .advantages-list {
     display: flex;
     flex-direction: row;
-    gap: 35px;
+    gap: 104px;
+    padding: 60px 127px 0;
+  }
+  .advantages-text {
+    margin-top: 60px;
+    font-family: Akatab;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
   }
 }
 
 .gallery {
   width: 375px;
+  height: 453px;
   margin: auto;
   padding: 60px 0px;
-  background: linear-gradient(360deg, #6a03d5 0%, #2702c6 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/img/gallery/Gallery.png");
 }
 
 .gallery-list {
   width: 375px;
   margin: auto;
   padding-top: 40px;
-  padding-bottom: 36px;
+  padding-bottom: 32px;
 }
 
 .gallery-item {
   overflow: hidden;
   position: relative;
-  width: 334px;
-  height: 188px;
-
-  border-radius: 16px;
+  width: 335px;
+  height: 155px;
 
   margin: 0 7px;
 }
@@ -605,8 +629,6 @@ a {
   padding: 0;
   -webkit-transition: scale 0.3s ease;
   transition: scale 0.3s ease;
-  width: 64px;
-  height: 64px;
 }
 
 .gallery-button:hover {
@@ -618,138 +640,211 @@ a {
 }
 
 .gallery-button-icon {
-  width: 64px;
-  height: 64px;
 }
 @media screen and (min-width: 1200px) {
   .gallery {
     width: 1440px;
+    height: 767px;
 
-    padding: 88px 0px;
+    padding: 68px 0px 0;
+    background-image: url("/img/gallery//Gallery\ \(1\).png");
   }
 
   .gallery-list {
     width: auto;
     margin: auto;
-    padding: 40px 0;
+    padding: 30px 0;
   }
   .gallery-item {
     overflow: hidden;
     position: relative;
-    width: 1041px;
-    height: 586px;
+    width: 1037px;
+    height: 479px;
 
     margin: 0 18px;
   }
 }
-
-.faq {
-  padding: 60px 20px;
-  margin: auto;
+.how {
   width: 375px;
-  min-height: 852px;
+  height: 965px;
+  padding: 60px 20px 0px;
+  margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("/image/faq/FAQ.png");
+  background-image: url("/img/how/How\ to\ Play.png");
 }
-.faq-container {
-  width: 335px;
-  padding-top: 40px;
+
+.how-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  margin: auto;
+  gap: 18px;
+  padding-top: 40px;
 }
-
-.faq-item {
+.how-item {
   width: 335px;
-  border: 2px solid #ffffff;
-  padding: 24px 20px;
-  background: #ffffff;
+  padding: 16px 24px 16px 24px;
+  border-radius: 20px;
 
-  border-radius: 14px;
+  margin: auto;
+  background: #ffffff;
+  border: 4px solid #ffffff;
+  box-shadow: 0px 8px 12px 0px #f3b123;
+  display: flex;
+  align-items: start;
+  gap: 8px;
+}
+.how-item-img {
 }
 
-.faq-question {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: Albert Sans;
-  font-size: 20px;
+.how-item-text {
+  font-family: Ubuntu;
+  font-size: 18px;
   font-weight: 700;
   line-height: 28px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 
-  color: #4d4166;
+  color: #202021;
+  padding: 0px 0 5px;
 }
-
-.toggle-button {
-  background: none;
-  border: none;
-
-  cursor: pointer;
-}
-
-.faq-answer {
-  display: none;
-  padding-top: 12px;
-
-  font-family: Albert Sans;
+.how-text-bold {
+  font-family: Ubuntu;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #4d4166;
+
+  color: #202021;
 }
 @media screen and (min-width: 1200px) {
-  .faq {
-    padding: 88px 272px;
-    margin: auto;
+  .how {
     width: 1440px;
+    height: 699px;
 
-    min-height: 1064px;
+    padding: 88px 241px 0px;
+    margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url("/image/faq/FAQ\ \(1\).png");
+    background-image: url("/img/how/How\ to\ Play\ \(1\).png");
   }
-  .faq-container {
-    width: 896px;
-    padding-top: 54px;
+
+  .how-list {
+    height: 411px;
+    align-items: center;
+    justify-content: center;
+
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 0;
+
+    margin-top: 60px;
+  }
+  .how-item {
+    width: 439px;
+    margin: 0;
+  }
+}
+.faq {
+  padding: 60px 20px;
+  margin: auto;
+  width: 375px;
+  height: 1072px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/img/faq/FAQ.png");
+}
+.faq-container {
+  width: 335px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: auto;
+}
+
+.faq-item {
+  width: 335px;
+  padding: 20px 28px 20px 28px;
+  border-radius: 20px;
+  background: #ffffff;
+  border: 4px solid #ffffff;
+  box-shadow: 0px 8px 12px 0px #dc8f2f;
+}
+
+.faq-question {
+  font-family: Akatab;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #35383f;
+  padding-bottom: 12px;
+}
+
+.faq-answer {
+  font-family: Akatab;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #35383f;
+}
+@media screen and (min-width: 1200px) {
+  .faq {
+    padding: 88px 192px;
+    margin: auto;
+    width: 1440px;
+    height: 760px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/img/faq/Gallery\ \(2\).png");
+  }
+  .faq-container {
+    width: auto;
+    height: 532px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 32px;
     margin: auto;
   }
 
   .faq-item {
-    width: 896px;
-
-    padding: 32px 40px;
-
-    border-radius: 14px;
+    width: 506px;
+    height: 136px;
+    padding: 20px 28px 20px 28px;
   }
+
   .faq-question {
-    font-family: Albert Sans;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 32px;
+    font-family: Akatab;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 28px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  .faq-answer {
-    display: none;
-    padding-top: 16px;
 
-    font-family: Albert Sans;
+  .faq-answer {
+    font-family: Akatab;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 28px;
     text-align: left;
     text-underline-position: from-font;
@@ -757,7 +852,7 @@ a {
   }
 }
 .footer {
-  background: #1f0084;
+  background: #142585;
 
   padding: 40px 20px;
   margin: auto;
@@ -777,7 +872,7 @@ a {
   gap: 4px;
 }
 .footer-text {
-  font-family: Albert Sans;
+  font-family: Akatab;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
@@ -790,10 +885,10 @@ a {
 }
 
 .footer-copyright {
-  font-family: Albert Sans;
-  font-size: 10px;
+  font-family: Akatab;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 20px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -815,7 +910,7 @@ a {
     gap: 4px;
   }
   .footer-text {
-    font-family: Albert Sans;
+    font-family: Akatab;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -825,8 +920,8 @@ a {
   }
 
   .footer-copyright {
-    font-family: Albert Sans;
-    font-size: 10px;
+    font-family: Ubuntu;
+    font-size: 12px;
     font-weight: 400;
     line-height: 16px;
     text-align: left;
@@ -842,18 +937,19 @@ a {
 }
 
 .policy-terms-title {
-  font-family: Albert Sans;
-  font-size: 24px;
+  font-family: Akatab;
+  font-size: 32px;
   font-weight: 700;
-  line-height: 32px;
+  line-height: 40px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+
   text-transform: uppercase;
 }
 
 .policy-terms-text {
-  font-family: Inter;
+  font-family: Ubuntu;
   font-size: 20px;
   font-weight: 700;
   line-height: 28px;
@@ -864,24 +960,20 @@ a {
   padding-top: 20px;
 }
 .policy-terms-texts {
-  font-family: Inter;
+  font-family: Ubuntu;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  text-align: justify;
 
   padding-top: 8px;
 }
 .policy-terms-text-one {
-  font-family: Inter;
+  font-family: Ubuntu;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  text-align: justify;
 
   padding-top: 20px;
 }
@@ -890,13 +982,11 @@ a {
   list-style-type: disc;
 
   padding: 20px 0 20px 25px;
-  font-family: Inter;
+  font-family: Ubuntu;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  text-align: justify;
 
   display: flex;
   flex-direction: column;
@@ -907,39 +997,32 @@ a {
 
   padding-left: 25px;
 
-  font-family: Inter;
+  font-family: Ubuntu;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  text-align: justify;
 }
 .email-link {
   color: inherit;
   text-decoration: none;
 
-  font-family: Inter;
+  font-family: Ubuntu;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  text-align: justify;
 
   text-decoration: none;
 }
 .email-link-color {
-  color: #000000;
+  color: #292a2b;
 
-  font-family: Inter;
+  font-family: Ubuntu;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-
+  text-align: justify;
   text-decoration: underline;
 }
 @media screen and (min-width: 1200px) {
